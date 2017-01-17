@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memory Match</title>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="http://learning-fuze.github.io/memory_match/v0.1/script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="header_container">
+            <img id="game_logo_image" src="http://vignette1.wikia.nocookie.net/steven-universe/images/b/bf/New_MC_Banner.png/revision/latest?cb=20160910182705">
+            <ul class="header_links">
+                <li><a href="#">Settings</a></li>
+                <br>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="header_title">
+                <h1>Steven Matchiverse</h1>
+            </div>
+        </div>
+
+        <div id="stats_container">
+            <div class="games-played">
+                <h2 class="label">Games Played</h2>
+                <h2 class="value"></h2>
+            </div>
+            <div class="attempts">
+                <h2 class="label">Attempts</h2>
+                <h2 class="value"></h2>
+            </div>
+            <div class="accuracy">
+                <h2 class="label">Accuracy</h2>
+                <h2 class="value"></h2>
+            </div>
+            <div class="reset_button">
+            <button class="reset">Reset Game</button>
+            </div>
+        </div>
+
+        <div id="game-area">
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_amethyst.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_garnet.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_greg.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_lion.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_pearl.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_ruby.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_sapphire.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_steven.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_stevonnie.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_amethyst.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_garnet.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_greg.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_lion.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_pearl.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_ruby.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_sapphire.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_steven.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <img src="images/memory_match_stevonnie.png">
+                </div>
+                <div class="back">
+                    <img src="images/memory_match_back.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
