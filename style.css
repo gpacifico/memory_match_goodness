@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_title, #game_logo_image, ul, .header_links li, #stats_container, .card {
+    display: inline-block;
+}
+
+#header_container {
+    height: 15vmin;
+    background-color: rgba(76,0,153, 0.9);
+}
+
+.header_title {
+    font-size: 6vmin;
+    color: rgba(204,0,102, 0.8);
+    vertical-align: middle;
+    margin-left: 5vmin;
+}
+
+#game_logo_image {
+    height: 14vmin;
+    width: 17vmin;
+    position: relative;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3vmin;
+    color: rgba(255,128,0, 0.8);
+}
+
+ul,.header_links li {
+    margin: 0 5vmin;
+}
+
+#stats_container {
+    float: left;
+    width: 15vmin;
+    height: 85vmin;
+    background-color: rgba(204,0,102, 0.8);
+}
+
+#stats_container div {
+    margin: 1vmin 1vmin;
+}
+
+body {
+    background: url("http://www.themarysue.com/wp-content/uploads/2016/03/steven-universe.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.card {
+    height: 23vmin;
+    width: 18vmin;
+    margin: 3vmin 1vmin 1vmin 5vmin;
+}
+
+.card img {
+    position: absolute;
+    height: 23vmin;
+    width: 18vmin;
+}
+
+.back {
+    height: 23vmin;
+    width: 18vmin;
+}
+
+.about {
+    color: white;
+    margin: 2vmin;
+}
+
+.about a {
+    color: rgba(204,0,102, 1);
+}
+
+.about_image {
+    height: 50vmin;
+}
+
+.about_header h1 {
+    font-size: 8vmin;
+}
+
+.about_information, .about a, .about_skills {
+    font-size: 3vmin;
+}
