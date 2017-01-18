@@ -102,3 +102,8 @@ body {
 .about_information, .about a, .about_skills {
     font-size: 3vmin;
 }
+
+.you_win {
+    color: #ffffff;
+    font-size: 10vmin;
+}
