@@ -32,7 +32,7 @@ function random_maker() {
         var i = Math.floor(Math.random() * $('.card').length);
         random_pictures.push($('.card').splice(i, 1)[0]);
     }
-    $('#game-area').append(random_pictures);
+    $('#game_area').append(random_pictures);
 }
 
 function card_clicked() {
@@ -70,7 +70,7 @@ function card_clicked() {
                         src: "https://www.youtube.com/embed/Ip1eVBs7hC4",
                         class: "you_win_video"
                     });
-                    $("#game-area").prepend(win_text, win_video);
+                    $("#game_area").prepend(win_text, win_video);
                     $(".card").css("display", "none");
                 }
             }
@@ -88,7 +88,7 @@ function card_clicked() {
 }
 
 function display_stats() {
-    $(".games-played .value").text(games_played);
+    $(".games_played .value").text(games_played);
     $(".attempts .value").text(attempts);
     if(attempts > 0) {
         accuracy = matches / attempts;
