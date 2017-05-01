@@ -77,7 +77,7 @@ button {
 
 #game_area {
     width: 80%;
-    height: 85vh;
+    height: 85vmin;
     float: right;
 }
 
