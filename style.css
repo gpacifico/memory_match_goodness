@@ -19,14 +19,16 @@ body > * {
 }
 
 #header_container {
-    height: 15vmin;
+    /*height: 15vmin;*/
+    height: 15%;
     background-color: rgba(76,0,153, 0.8);
 }
 
 .header_title {
     color: rgba(204,0,102, 1);
     vertical-align: middle;
-    margin-left: 5vmin;
+    /*margin-left: 5vmin;*/
+    margin-left: 3vmin;
 }
 
 .header_title h1 {
@@ -34,8 +36,10 @@ body > * {
 }
 
 #game_logo_image {
-    height: 14vmin;
-    width: 17vmin;
+    /*height: 14vmin;*/
+    /*width: 17vmin;*/
+    height: 14%;
+    width: 15%;
     position: relative;
     vertical-align: middle;
 }
@@ -51,8 +55,10 @@ ul,.header_links li {
 }
 
 #stats_container {
-    width: 20vmin;
-    height: 85vmin;
+    /*width: 20vmin;*/
+    /*height: 85vmin;*/
+    width: 20%;
+    height: 100%;
     background-color: rgba(204,0,102, 0.7);
     color: rgba(76,0,153, 1);
 }
@@ -67,7 +73,8 @@ button {
 }
 
 #game_area {
-    width: 80vw;
+    /*width: 80vw;*/
+    width: 80%;
     height: 85vh;
     float: right;
     position: relative;
