@@ -59,7 +59,6 @@ ul,.header_links li {
 #stats_container {
     width: 20%;
     background-color: rgba(204,0,102, 0.7);
-    color: rgba(76,0,153, 1);
 }
 
 #stats_container, .card img {
@@ -68,7 +67,12 @@ ul,.header_links li {
 
 button {
     background-color: rgba(255,128,0, 0.9);
-    font-size: 2vmin;
+    font-weight: bold;
+    box-shadow: 4px 4px 5px rgba(76,0,153, 0.6);
+}
+
+#stats_container, button {
+    color: rgba(76,0,153, 1);
 }
 
 #stats_container div {
@@ -112,7 +116,7 @@ button {
     font-size: 8vmin;
 }
 
-.about_information, a, .about_skills {
+.about_information, a, .about_skills, button {
     font-size: 3vmin;
 }
 
