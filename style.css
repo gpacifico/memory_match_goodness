@@ -4,16 +4,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*body {*/
-    /*background: url("images/steven_universe_cookie_cat.jpg") no-repeat center center;*/
-    /*background-size: cover;*/
-/*}*/
-
 body {
     background: url("images/steven_universe_cookie_cat.jpg"), url("images/memory_match_cookie_cat2.png");
     background-size: cover, 100%;
     background-repeat: no-repeat, repeat;
-    background-position: center center, center center;
+    background-position: center center;
 }
 
 body, #game_area {
