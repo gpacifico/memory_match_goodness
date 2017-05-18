@@ -65,8 +65,8 @@ function card_clicked() {
                         class: "you_win"
                     });
                     var win_video = $("<iframe>", {
-                        width: "373",
-                        height: "210",
+                        width: "448",
+                        height: "252",
                         src: "https://www.youtube.com/embed/Ip1eVBs7hC4",
                         class: "you_win_video"
                     });
