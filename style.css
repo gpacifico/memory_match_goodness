@@ -5,10 +5,8 @@
 }
 
 body {
-    background: url("images/steven_universe_cookie_cat.jpg"), url("images/memory_match_cookie_cat2.png");
-    background-size: cover, 100%;
-    background-repeat: no-repeat, repeat;
-    background-position: center center;
+    background: url("images/memory_match_cookie_cat2.png") repeat center;
+    background-size: 150%;
 }
 
 body, #game_area {
@@ -29,8 +27,11 @@ body > *, #game_area > * {
 }
 
 .header_title {
-    color: rgba(204,0,102, 1);
     margin-left: 3vmin;
+}
+
+.header_title, a:hover {
+    color: rgba(204,0,102, 1);
 }
 
 .header_title h1 {
@@ -83,7 +84,7 @@ button {
 
 #game_area {
     width: 80%;
-    height: 85vmin;
+    height: 83vmin;
     float: right;
 }
 
@@ -102,34 +103,17 @@ button {
     width: 100%;
 }
 
-.about {
-    margin: 2vmin;
-}
-
-.about a {
-    color: rgba(204,0,102, 1);
-}
-
-.about_image {
-    height: 50vmin;
-}
-
-.about_header h1 {
-    font-size: 8vmin;
-}
-
-.about_information, a, .about_skills, button {
+a, button {
     font-size: 3vmin;
-}
-
-#game_area .you_win, .about {
-    color: #ffffff;
 }
 
 #game_area .you_win {
     font-size: 6vmin;
+    color: #ffffff;
+    padding: 0 0 1.5vmin 1vmin;
 }
 
 #game_area .you_win_video {
     border: 1vmin solid rgba(76,0,153, 0.9);
+    margin-left: 1vmin;
 }
