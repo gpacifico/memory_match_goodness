@@ -61,7 +61,7 @@ function card_clicked() {
                 display_stats();
                 if (matches == total_possible_matches) {
                     var win_text = $("<h1>", {
-                        text: "You Won and Saved the Day, just like Garnet, Amethyst, and Pearl...AND STEVEN!",
+                        text: "You're something extraordinary!",
                         class: "you_win"
                     });
                     var win_video = $("<iframe>", {
