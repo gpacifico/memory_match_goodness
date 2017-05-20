@@ -60,18 +60,20 @@ function card_clicked() {
                 matches++;
                 display_stats();
                 if (matches == total_possible_matches) {
+                    setTimeout(function () {
                     var win_text = $("<h1>", {
                         text: "You're something extraordinary!",
                         class: "you_win"
                     });
                     var win_video = $("<iframe>", {
-                        width: "448",
-                        height: "252",
+                        width: "485",
+                        height: "273",
                         src: "https://www.youtube.com/embed/Ip1eVBs7hC4",
                         class: "you_win_video"
                     });
                     $("#game_area").prepend(win_text, win_video);
                     $(".card").css("display", "none");
+                    }, 1000)
                 }
             }
             else {
