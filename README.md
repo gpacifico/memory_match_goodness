@@ -13,3 +13,9 @@ concentrate to win!
 - jQuery
 - HTML
 - CSS
+
+## Planned Additions:
+- Adding a database to keep a history of scores
+- Firebase Integration
+- Facebook Login
+- Ability to share your high scores with your Facebook friends
