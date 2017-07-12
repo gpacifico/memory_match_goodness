@@ -17,5 +17,6 @@ concentrate to win!
 ## Planned Additions:
 - Adding a database to keep a history of scores
 - Firebase Integration
+- Option for Multiplayer Mode
 - Facebook Login
 - Ability to share your high scores with your Facebook friends
