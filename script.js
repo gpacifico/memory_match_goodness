@@ -1,7 +1,6 @@
 var first_card_clicked = null;
 var second_card_clicked = null;
 var total_possible_matches = 9;
-var match_counter = 0;
 var disable_click = false;
 
 var matches = 0;
